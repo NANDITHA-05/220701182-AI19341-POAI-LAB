@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 
-
 def euclidean_distance(point1, point2):
     return np.sqrt(np.sum((point1 - point2) ** 2))
 
